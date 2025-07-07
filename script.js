@@ -36,8 +36,8 @@
 //   changeCarYear(2023);
 //   console.log(car.year);
 // const { model, year } = car;
-// console.log(Model: ${model});
-// console.log(Year: ${year}); 
+// console.log(`Model: ${model}`);
+// console.log(`Year: ${year}`); 
 
 
 // Question 4
@@ -82,7 +82,7 @@
 //       const response = await fetch('https://jsonplaceholder.typicode.com/posts');
   
 //       if (!response.ok) {
-//         throw new Error(HTTP error! status: ${response.status});
+//         throw new Error(`HTTP error! status: ${response.status}`);
 //       }
 //       const data = await response.json();
 //       console.log(data);
